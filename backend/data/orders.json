@@ -1,0 +1,92 @@
+[
+  {
+    "order_id": "O1001",
+    "customer_id": "C001",
+    "product": "Wireless Headphones",
+    "days_since_purchase": 10
+  },
+  {
+    "order_id": "O1002",
+    "customer_id": "C002",
+    "product": "Laptop Bag",
+    "days_since_purchase": 45
+  },
+  {
+    "order_id": "O1003",
+    "customer_id": "C003",
+    "product": "Gaming Mouse",
+    "days_since_purchase": 15
+  },
+  {
+    "order_id": "O1004",
+    "customer_id": "C004",
+    "product": "Bluetooth Speaker",
+    "days_since_purchase": 31
+  },
+  {
+    "order_id": "O1005",
+    "customer_id": "C005",
+    "product": "USB Hub",
+    "days_since_purchase": 5
+  },
+  {
+    "order_id": "O1006",
+    "customer_id": "C006",
+    "product": "Mechanical Keyboard",
+    "days_since_purchase": 60
+  },
+  {
+    "order_id": "O1007",
+    "customer_id": "C007",
+    "product": "Webcam",
+    "days_since_purchase": 20
+  },
+  {
+    "order_id": "O1008",
+    "customer_id": "C008",
+    "product": "Monitor Stand",
+    "days_since_purchase": 28
+  },
+  {
+    "order_id": "O1009",
+    "customer_id": "C009",
+    "product": "SSD Drive",
+    "days_since_purchase": 35
+  },
+  {
+    "order_id": "O1010",
+    "customer_id": "C010",
+    "product": "Wireless Charger",
+    "days_since_purchase": 12
+  },
+  {
+    "order_id": "O1011",
+    "customer_id": "C011",
+    "product": "Smart Watch",
+    "days_since_purchase": 75
+  },
+  {
+    "order_id": "O1012",
+    "customer_id": "C012",
+    "product": "Tablet Case",
+    "days_since_purchase": 18
+  },
+  {
+    "order_id": "O1013",
+    "customer_id": "C013",
+    "product": "Portable SSD",
+    "days_since_purchase": 40
+  },
+  {
+    "order_id": "O1014",
+    "customer_id": "C014",
+    "product": "Noise Cancelling Earbuds",
+    "days_since_purchase": 29
+  },
+  {
+    "order_id": "O1015",
+    "customer_id": "C015",
+    "product": "USB-C Dock",
+    "days_since_purchase": 50
+  }
+]

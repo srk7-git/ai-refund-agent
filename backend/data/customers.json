@@ -1,0 +1,92 @@
+[
+  {
+    "customer_id": "C001",
+    "name": "John Smith",
+    "email": "john.smith@email.com",
+    "loyalty_level": "Gold"
+  },
+  {
+    "customer_id": "C002",
+    "name": "Sarah Johnson",
+    "email": "sarah.j@email.com",
+    "loyalty_level": "Silver"
+  },
+  {
+    "customer_id": "C003",
+    "name": "Michael Brown",
+    "email": "michael.b@email.com",
+    "loyalty_level": "Regular"
+  },
+  {
+    "customer_id": "C004",
+    "name": "Emma Wilson",
+    "email": "emma.w@email.com",
+    "loyalty_level": "Gold"
+  },
+  {
+    "customer_id": "C005",
+    "name": "David Miller",
+    "email": "david.m@email.com",
+    "loyalty_level": "Regular"
+  },
+  {
+    "customer_id": "C006",
+    "name": "Sophia Davis",
+    "email": "sophia.d@email.com",
+    "loyalty_level": "Silver"
+  },
+  {
+    "customer_id": "C007",
+    "name": "James Anderson",
+    "email": "james.a@email.com",
+    "loyalty_level": "Gold"
+  },
+  {
+    "customer_id": "C008",
+    "name": "Olivia Thomas",
+    "email": "olivia.t@email.com",
+    "loyalty_level": "Regular"
+  },
+  {
+    "customer_id": "C009",
+    "name": "William Jackson",
+    "email": "william.j@email.com",
+    "loyalty_level": "Silver"
+  },
+  {
+    "customer_id": "C010",
+    "name": "Ava White",
+    "email": "ava.w@email.com",
+    "loyalty_level": "Gold"
+  },
+  {
+    "customer_id": "C011",
+    "name": "Benjamin Harris",
+    "email": "ben.h@email.com",
+    "loyalty_level": "Regular"
+  },
+  {
+    "customer_id": "C012",
+    "name": "Mia Martin",
+    "email": "mia.m@email.com",
+    "loyalty_level": "Silver"
+  },
+  {
+    "customer_id": "C013",
+    "name": "Lucas Thompson",
+    "email": "lucas.t@email.com",
+    "loyalty_level": "Regular"
+  },
+  {
+    "customer_id": "C014",
+    "name": "Charlotte Garcia",
+    "email": "charlotte.g@email.com",
+    "loyalty_level": "Gold"
+  },
+  {
+    "customer_id": "C015",
+    "name": "Henry Martinez",
+    "email": "henry.m@email.com",
+    "loyalty_level": "Silver"
+  }
+]
