@@ -58,11 +58,16 @@ function App() {
           backgroundColor: "white"
         }}
       >
-        <h2>🤖 AI Customer Support Agent</h2>
+        <>
+  <h2>🤖 AI Customer Support Agent</h2>
+  <p style={{ marginBottom: "20px" }}>
+    Automated E-Commerce Refund Processing
+  </p>
+</>
 
         <input
           type="text"
-          placeholder="Type your refund request..."
+          placeholder="Example: I want a refund for O1004"
           value={orderId}
           onChange={(e) => setOrderId(e.target.value)}
           style={{

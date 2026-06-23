@@ -10,13 +10,13 @@ with open("data/customers.json", "r") as file:
 def check_refund(order_id):
     logs = []
 
-    logs.append("Searching for order")
+    logs.append("Step 1: Retrieve order data")
 
     for order in orders:
 
         if order["order_id"] == order_id:
 
-            logs.append("Order found")
+            logs.append("Step 2: Order record located")
 
             customer_id = order["customer_id"]
 
@@ -29,13 +29,13 @@ def check_refund(order_id):
 
             if customer:
                 logs.append(
-                    f"Customer found ({customer['loyalty_level']})"
+                    f"Step 3: Customer profile loaded ({customer['loyalty_level']})"
                 )
 
             if order["days_since_purchase"] <= 30:
 
-                logs.append("Order within refund period")
-                logs.append("Refund approved")
+                logs.append("Step 4: Refund policy validation passed")
+                logs.append("Step 5: Refund approved")
 
                 return {
                     "status": "APPROVED",
@@ -53,8 +53,8 @@ def check_refund(order_id):
                 and order["days_since_purchase"] <= 35
             ):
 
-                logs.append("Gold customer exception applied")
-                logs.append("Refund approved")
+                logs.append("Step 4: Gold customer exception rule triggered")
+                logs.append("Step 5: Refund approved")
 
                 return {
                     "status": "APPROVED",
@@ -66,8 +66,8 @@ def check_refund(order_id):
                     "logs": logs
                 }
 
-            logs.append("Refund period exceeded")
-            logs.append("Refund denied")
+            logs.append("Step 4: Refund policy validation failed")
+            logs.append("Step 5: Refund denied")
 
             return {
                 "status": "DENIED",
@@ -79,7 +79,7 @@ def check_refund(order_id):
                 "logs": logs
             }
 
-    logs.append("Order not found")
+    logs.append("Step 2: Order record not found")
 
     return {
         "status": "NOT FOUND",
